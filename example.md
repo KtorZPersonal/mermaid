@@ -1,6 +1,6 @@
 # Example #1: Basic Flow Chart
 
-<!-- @mermaid:my_diagram.svg
+<!-- @mermaid:my_example.svg
 
 graph TD
 A[Christmas] ==>|Get money| B(Go shopping)
@@ -10,4 +10,4 @@ C ==>|Two| E[iPhone]
 C ==>|Three| F[fa:fa-car Car]
 
 -->
-![](https://markdown-engineering.herokuapp.com/example.svg)
+![](https://markdown-engineering.herokuapp.com/my_example.svg)
