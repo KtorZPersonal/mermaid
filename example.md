@@ -1,10 +1,13 @@
 # Example #1: Basic Flow Chart
 
-[mermaid:my_diagram]: graph TD
-[mermaid:my_diagram]: A[Christmas] -->|Get money| B(Go shopping)
-[mermaid:my_diagram]: B --> C{Let me think}
-[mermaid:my_diagram]: C -->|One| D[Laptop]
-[mermaid:my_diagram]: C -->|Two| E[iPhone]
-[mermaid:my_diagram]: C -->|Three| F[Car]
+<!-- @mermaid:my_diagram.svg
 
+graph TD
+A[Christmas] ==>|Get money| B(Go shopping)
+B ==> C{Let me think}
+C ==>|One| D[Laptop]
+C ==>|Two| E[iPhone]
+C ==>|Three| F[fa:fa-car Car]
+
+-->
 ![](https://markdown-engineering.herokuapp.com/my_diagram.svg)
