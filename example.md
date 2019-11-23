@@ -1,10 +1,9 @@
 # Example #1: Basic Flow Chart
 
-<!-- graph TD
-A[Christmas] ==>|Get money| B(Go shopping)
-B ==> C{Let me think}
-C ==>|One| D[Laptop]
-C ==>|Two| E[iPhone]
-C ==>|Three| F[fa:fa-car Car]
--->
-![](https://markdown-engineering.herokuapp.com/diagram.svg?content=eyJjb2RlIjoiZ3JhcGggVERcbkFbQ2hyaXN0bWFzXSAtLT58R2V0IG1vbmV5fCBCKEdvIHNob3BwaW5nKVxuQiAtLT4gQ3tMZXQgbWUgdGhpbmt9XG5DIC0tPnxPbmV8IERbTGFwdG9wXVxuQyAtLT58VHdvfCBFW2lQaG9uZV1cbkMgLS0-fFRocmVlfCBGW2ZhOmZhLWNhciBDYXJdXG4iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9fQ)
+```mermaid
+graph TD
+A[Choose a number] --> B{Is it 14?}
+B -->|No| A
+B -->|Yes| C(Awesome)
+```
+![](https://markdown-engineering.herokuapp.com/diagram.svg?content=eyJjb2RlIjoiZ3JhcGggVERcbkFbQ2hvb3NlIGEgbnVtYmVyXSAtLT4gQntJcyBpdCAxND99XG5CIC0tPnxOb3wgQVxuQiAtLT58WWVzfCBDKEF3ZXNvbWUpXG4iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9fQ)
