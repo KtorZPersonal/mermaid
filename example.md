@@ -1,9 +1,8 @@
 # Example #1: Basic Flow Chart
 
-```mermaid
-graph TD
-A[Choose a number] --> B{Is it 14?}
-B -->|No| A
-B -->|Yes| C(Awesome)
-```
-<img src="https://markdown-engineering.herokuapp.com/diagram.svg?content=eyJjb2RlIjoiZ3JhcGggVERcbkFbQ2hvb3NlIGEgbnVtYmVyXSAtLT4gQntJcyBpdCAxND99XG5CIC0tPnxOb3wgQVxuQiAtLT58WWVzfCBDKEF3ZXNvbWUpXG4iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9fQ" height=480 />
+<img height=480 src="https://markdown-engineering.herokuapp.com/svg/
+    graph TD
+    A[Choose a number] --> B{Is it 14}
+    B --> A
+    B --> C(Awesome)
+"/>
